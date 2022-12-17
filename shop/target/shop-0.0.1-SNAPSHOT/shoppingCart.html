@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="StyleSheet"
+	href="res/mc.css" type="text/css" title="cse4413" media="screen, print"/>
+	<script type="text/javascript" src="scripts/mc.js">;</script>
+	<meta charset="UTF-8">
+	<title>Shopping Cart</title>
+</head>
+<body>
+	<nav>
+		<a href="">Home</a>   
+		<a href="">About</a>  
+	</nav>
+	
+		
+			<form action="Sis" method="POST">
+				<div class="nav">
+				    <a href="index.html"><img src="res/img/dark-logo.png" class="brand-logo" alt=""></a>
+				</div> 
+				
+				<header class="hero-section">
+				    <div class="content">
+				        <img src="res/img/light-logo.png" class="logo" alt="">
+				        <p class="sub-heading">All Item View</p>
+				        <button value="true" name="showAll" class="search-btn" style="background-color: #4CAF50;" onclick="reportAjax('/shop/Sis/ShowAll/');return false;">Show All</button>
+				        <div id="result" style="color:white;"></div>
+				        <input type="text" id="surname" name="surname"placeholder="Edit with item name"></input><BR/>
+						<button value="true" name="ajax" class="search-btn" style="background-color: #4CAF50;" onclick="cart('/shop/Sis/add/');return false;">ADD</button> 
+						<button value="true" name="ajax" class="search-btn" style="background-color: #4CAF50;" onclick="cart('/shop/Sis/clear/');return false;">Clear</button> 
+						<div id="cartResult" style="color:white;"></div>
+				    </div>
+				   
+				</header>
+				
+			</form>
+			
+
+	<article>
+		<img alt="lassonde logo" src="res/lassonde logo.png" width="166" height="22" class="center">
+	</article>
+	<aside>
+		<p>York University</p>
+	</aside>
+	<footer>
+		<p>Copyright Hongce Chen, Shuyi Shi, Wey Lai - All rights reserved</p>
+	</footer>
+</body>
+</html>
