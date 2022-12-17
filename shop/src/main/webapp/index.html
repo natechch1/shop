@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="StyleSheet"
+	href="res/mc.css" type="text/css" title="cse4413" media="screen, print"/>
+	<script type="text/javascript" src="scripts/mc.js">;</script>
+	<meta charset="UTF-8">
+	<title>Shop Project</title>
+</head>
+<body>
+	<nav>
+		<a href="">Home</a>   
+		<a href="">About</a>  
+	</nav>
+
+			<form action="Sis" method="POST">
+				<div class="nav">
+				     <a href="index.html"><img src="res/img/dark-logo.png" class="brand-logo" alt=""></a>
+				    <div class="nav-items">
+				        <div class="search">
+								<input type="text" id="surname" name="surname"placeholder="search brand, type"></input><BR/>
+								<button value="true" name="ajax" class="search-btn" onclick="reportAjax('/shop/Sis/Ajax/');return false;">Search</button> 
+				        </div>
+				        <a href="#"><img src="res/img/user.png" alt=""></a>
+				        <a href="shoppingCart.html"><img src="res/img/cart.png" alt="" ></a>
+				    </div> 
+				</div> 
+				
+				<header class="hero-section">
+				    <div class="content">
+				        <img src="res/img/light-logo.png" class="logo" alt="">
+				        <p class="sub-heading">Item show Information</p>
+				        <div id="result" style="color:white;"></div>
+				    </div>
+				</header>
+				
+			</form>
+	
+	<article>
+		<img alt="lassonde logo" src="res/lassonde logo.png" width="166" height="22" class="center">
+	</article>
+	<aside>
+		<p>York University</p>
+	</aside>
+	<footer>
+		<p>Copyright Hongce Chen, Shuyi Shi, Wey Lai - All rights reserved</p>
+	</footer>
+</body>
+</html>
